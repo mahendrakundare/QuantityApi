@@ -1,13 +1,13 @@
-package com.quantitymeasurementapi;
+package com.quantitymeasurement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuantityMeasurementapiApplication {
+public class QuantityMeasurementApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(QuantityMeasurementapiApplication.class, args);
+        SpringApplication.run(QuantityMeasurementApplication.class, args);
     }
 
 }

@@ -1,11 +1,11 @@
-package com.quantitymeasurementapi.service;
+package com.quantitymeasurement.service;
 
-public enum UnitOfVolume implements Unit
+public enum VolumeUnits implements Unit
 {
    GALLON(3.78), LITRE(1.0), MILLI_LITRE(0.001);
    public final double valueOfVolume;
 
-   UnitOfVolume(double value)
+   VolumeUnits(double value)
    {
       this.valueOfVolume = value;
    }

@@ -1,4 +1,4 @@
-package com.quantitymeasurementapi.exception;
+package com.quantitymeasurement.exception;
 
 public class QuantityMeasurementException extends Exception
 {

@@ -1,12 +1,12 @@
-package com.quantitymeasurementapi.service;
+package com.quantitymeasurement.service;
 
-public enum UnitOfWeights implements Unit
+public enum WeightUnits implements Unit
 {
    KILOGRAM(1.0), GRAM(0.001), TONNE(1000.0);
 
    private final double valueWeights;
 
-   UnitOfWeights(double valueWeights)
+   WeightUnits(double valueWeights)
    {
       this.valueWeights = valueWeights;
    }

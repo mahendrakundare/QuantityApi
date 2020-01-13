@@ -1,11 +1,11 @@
-package com.quantitymeasurementapi.service;
+package com.quantitymeasurement.service;
 
-public enum UnitOfTemperature implements Unit
+public enum TemperatureUnits implements Unit
 {
    FAHRENHEIT(32.0), CELSIUS(1.0);
    private final double valueOfTemperature;
 
-   UnitOfTemperature(double valueOfTemperature)
+   TemperatureUnits(double valueOfTemperature)
    {
       this.valueOfTemperature = valueOfTemperature;
    }

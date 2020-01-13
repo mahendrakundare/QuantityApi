@@ -1,4 +1,4 @@
-package com.quantitymeasurementapi.service;
+package com.quantitymeasurement.service;
 
 public interface Unit
 {
